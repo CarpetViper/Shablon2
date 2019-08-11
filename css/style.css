@@ -1,0 +1,192 @@
+                        /* Настройка стилей по умолчанию */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.clearfix::after,
+.header::after,
+.grid::after,
+.content {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html {
+  font-size: 100%;
+  margin: 0;
+}
+
+body, a, p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.375;
+  margin: 0;
+}
+
+p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.page__row {
+  width: 100%;
+}
+
+.page__cell {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+                             /* Стили для хедера */
+
+.page__row-header {
+  background: #343c4e;
+  background-repeat: no-repeat;
+  background-image: url("../img/Desert.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 25rem;
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  line-height: 1.375;
+  font-size: 2rem;
+}
+
+                           /* Стили для контента */
+
+.content {
+  padding-top: 4.370rem;
+  padding-bottom: 6.25rem;
+}
+
+.content_item {
+  width: 360px;
+  margin-right: 1.875rem;
+  float: left;
+}
+
+.content_item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content_item:last-child {
+  margin-right: 0;
+}
+
+.item_logo {
+  font-size: 1.25rem;
+  margin-bottom: 1.56rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.item_logo a {
+  border-bottom: 1px solid;
+}
+
+.item_logo a:hover {
+  color: #909090;
+}
+
+.content_item img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+                             /* Стили для страниц */
+
+.conteiner_page_2 {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.page_2 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.page_2 img {
+  margin-bottom: 2.5rem;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 10px 10px #505050;
+}
+
+.page_2 img:hover {
+  box-shadow: none;
+}
+
+.button_back {
+ font-family: 'Merriweather', serif;
+ font-weight: 700;
+ text-decoration: none;
+ color: #000;
+ display: inline-block;
+ border-radius: 2rem;
+ border-color: #000;
+ border-style: solid;
+ border-width: 2px;
+ padding-top: 0.5rem;
+ padding-bottom: 0.5rem;
+ padding-left: 1.43rem;
+ padding-right: 1.43rem;
+ letter-spacing: 1.6px;
+ margin-top: 3rem;
+}
+
+.button_back:hover {
+  color: #fff;
+  background-color: #909090;
+}
+
+                            /* Стили для футера */
+
+.page__row-footer {
+  background-color: #061634;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
+  color: #fff;
+}
+
+.page__cell-footer {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.footer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.copy {
+  float: right;
+}
+
+.contact {
+  float: left;
+
+}
+
+.contact a {
+  color: white;
+}

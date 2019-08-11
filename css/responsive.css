@@ -1,0 +1,31 @@
+@media screen and (max-width: 1140px) {
+
+  .header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content_item {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .copy, .contact {
+    float: none;
+    text-align: center;
+  }
+
+}
